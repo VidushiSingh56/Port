@@ -1,0 +1,552 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: ;
+
+}
+
+/* Landing page */
+
+.landing {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    ;
+    width: 100%;
+    height: 965px;
+    background-image: url(img/groupland.png);
+    background-size: cover;
+
+}
+
+/* hr.line{
+    position: relative;
+    top: 23px;
+} */
+.home {
+    font-family: "Centra No2";
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 433px;
+    top: 268px;
+
+}
+
+.home h1 {
+    position: relative;
+    margin: 0px auto;
+}
+
+.text1,
+.text2 {
+    position: relative;
+    /* top: -43px; */
+    margin: 12px auto;
+}
+
+.container .plus {
+    position: relative;
+    color: rgb(255 0 160);
+}
+
+.container .plus.text1 {
+    color: antiquewhite;
+
+}
+
+.container .plus.text2::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(1, 8, 31);
+    border-left: 2px solid rgb(255 0 160);
+    color: antiquewhite;
+    animation: animate 4s steps(12) infinite;
+
+}
+
+@keyframes animate {
+
+    40%,
+    60% {
+        left: 100%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+.navbar {
+    position: absolute;
+    right: 38px;
+    top: 15px;
+
+}
+
+.navbar a {
+    color: antiquewhite;
+    ;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    border: 2px solid rgb(255 0 160);
+    border-radius: 30px;
+    background-color: rgb(255 0 160);
+    padding: 4px 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    display: flex;
+    padding: 3px 17px;
+    font-size: 20px;
+    font-family: "Centra No2";
+
+
+}
+
+.con {
+    display: flex;
+    position: relative;
+    top: 41px;
+    font-size: 29px;
+
+}
+
+.con a {
+    padding: 9px 9px;
+    padding-bottom: 0px;
+    margin: 0px 7px;
+    padding-left: 12px;
+    border: 2px solid;
+    border-radius: 50%;
+    color: rgb(255 0 160);
+
+
+    /* padding: 9px 9px;
+    padding-bottom: 0px;
+  margin: 0px 7px;
+    padding-left: 12px;
+    border: 2px solid;
+    border-radius: 50%;
+    color: rgb(35, 34, 34);
+    background-color: rgb(255 0 160); */
+}
+
+.con a:hover {
+    background-color: rgb(255 0 160);
+    color: rgb(0, 0, 0);
+}
+
+.con a:active {
+    text-decoration: solid rgb(255 0 160);
+}
+
+.btn , .btn a{
+    position: relative;
+    top: 6rem;
+    border: 2px solid rgb(255 0 160);
+    background-color: rgb(255 0 160);
+    padding: 7px 17px;
+    border-radius: 50px;
+    color: rgb(1 8 31);
+    width: 221px;
+    font-size: 24px;
+    font-family: "Centra No2";
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.about {
+    position: absolute;
+    top: 964px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    transition: all .2s ease-in-out;
+    background-image: url(img/Group\ 10312.png);
+
+
+}
+
+/* #about{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+} */
+/* .about::before{
+    position: inherit;
+    z-index: -1;
+    background-image: url(img/2ndd.png);
+    
+} */
+.image {
+    position: absolute;
+    top: 171px;
+    left: 225px;
+    height: 54px;
+    width: 6px;
+}
+
+.image img {
+    width: 19rem;
+    height: 23rem;
+    border: 3px solid rgb(237, 234, 230);
+}
+
+.para {
+    position: absolute;
+    /* border: 3px solid red; */
+    top: 197px;
+    left: 555px;
+    width: 833px;
+    /* font-family: 'Bricolage Grotesque', sans-serif; */
+    padding: 6px 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 21px;
+    color: rgb(237, 234, 230);
+}
+
+/* .about h1{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin-top: 12px;
+    margin-bottom: 17px;
+    position: absolute;
+    font-size: 56px;
+    left: 23px;
+    color: rgb(237, 234, 230);
+} */
+
+.para p {
+    font-family: "Centra No2";
+
+    margin: 2px 11px;
+    font-size: 19px;
+    text-align: ;
+}
+
+
+.de{
+    color: white;
+    font-size: 19px;
+    position: relative;
+    left: 37rem;
+    width: 482px;
+    display: grid;
+    height: 138px;
+    top: 287px;
+    font-family: "Centra No2";
+}
+.di li{
+    width: 532px;
+}
+
+#foot {
+    font-family: "Centra No2";
+    margin-top: 12px;
+    margin-bottom: 17px;
+    position: absolute;
+    font-size: 56px;
+    left: 23px;
+    top: 39rem;
+}
+
+.project {
+    position: absolute;
+    top: 1653px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    background-image: url(img/3rd.png);
+    background-size: cover;
+
+}
+
+/* .project h1{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin-top: 12px;
+    margin-bottom: 17px;
+    position: absolute;
+    font-size: 56px;
+    left: 23px;
+    color: antiquewhite;
+    display: h1;
+} */
+.pro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: 83px;
+    left: 277px;
+    width: 830px;
+    height: 532px;
+}
+
+.pro .item {
+
+    border: 2px solid #414040;
+    border-radius: 38px;
+    width: 495px;
+    height: 220px;
+    margin: 19px 7px;
+
+    margin-right: 8px;
+    position: relative;
+
+}
+
+.pro .item:hover {
+
+
+    /* opacity: 0.3; */
+    box-shadow: 3px 3px 10px rgb(0 0 0);
+    background-color: rgb(255 0 160);
+    position: relative;
+
+}
+
+.pro #item3,
+#item4 {
+    margin-top: 0px;
+}
+
+.pro #item1,
+#item2 {
+    margin-bottom: 0px;
+}
+
+.pro #item1 {
+    background-image: url(img/gym.png);
+    background-size: cover;
+    background-position-x: left;
+    background-repeat: round;
+    position: relative;
+
+}
+
+.pro #item2 {
+    background-image: url(img/food.png);
+    background-size: cover;
+    background-position-x: left;
+    background-repeat: round;
+    position: relative;
+}
+
+.pro #item3 {
+    background-image: url(img/jio.png);
+    background-size: cover;
+    background-position-x: left;
+    background-repeat: round;
+    position: relative;
+}
+
+.pro #item4 {
+    background-image: url(img/port\ \(2\).png);
+    background-size: cover;
+    background-position-x: left;
+    background-repeat: round;
+    position: relative;
+
+}
+
+.pro .item:hover {
+    transform: scale(1.05);
+
+}
+
+
+.skills {
+    position: absolute;
+    top: 2331px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: rgb(237, 234, 230);
+    background-color: rgb(0, 0, 0);
+    background-image: url('img/4th.png');
+    background-size: cover;
+
+}
+
+/* .skills h1{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin-top: 12px;
+    margin-bottom: 17px;
+    position: absolute;
+    font-size: 56px;
+    left: 23px;
+    color: rgb(237, 234, 230);
+    display: contents;
+} */
+.group {
+    position: absolute;
+    top: 12rem;
+    left: 30rem;
+    width: 39rem;
+    height: 24rem;
+}
+
+.circle {
+    width: 108px;
+    border-radius: 50%;
+    height: 102px;
+    margin: 2p 29px;
+    margin: 11px 16px;
+}
+
+.contact {
+    position: absolute;
+    top: 3022px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 97%;
+    background-color: rgb(0, 0, 0);
+    background-image: url(img/5th.png);
+    background-size: cover;
+}
+
+.one>center>h1 {
+    font-family: "Centra No2";
+    margin-top: 12px;
+    margin-bottom: 17px;
+    position: absolute;
+    font-size: 56px;
+    left: 23px;
+    color: rgb(237, 234, 230);
+    display: contents;
+    font-weight: 400;
+}
+
+.details {
+    position: relative;
+    color: rgb(237, 234, 230);
+    top: 8rem;
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr;
+    height: 30rem;
+    width: 73rem;
+    left: 11rem;
+}
+
+.sec {
+    margin: 3px 3px;
+    width: 24rem;
+
+}
+
+.r1 {
+
+    text-align: center;
+    font-weight: lighter;
+    font-size: 32px;
+    /* display: contents; */
+    font-family: "Centra No2";
+    font-weight: 400;
+    margin: 2px 2px;
+}
+
+.ico {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 5rem;
+    font-size: 46px;
+}
+
+#i1 {
+    left: 10rem;
+}
+
+#i2 {
+    left: 35rem;
+}
+
+#i3 {
+    left: 952px;
+}
+
+.content {
+    font-family: "Centra No2";
+    font-size: 20px;
+    font-weight: lighter;
+    position: absolute;
+    top: 145px;
+
+
+}
+
+#c1 {
+    left: 8rem;
+}
+
+#c2 {
+    left: 492px;
+}
+
+#c3 {
+    left: 54.3rem;
+}
+
+#i1:hover,
+#i2:hover,
+#i3:hover {
+    transform: scale(1.5);
+}
+
+.me {
+    position: absolute;
+    top: 28rem;
+    left: 40rem;
+}
+
+center {
+    position: relative;
+    top: 39px;
+}
+
+.cont {
+    display: flex;
+    position: relative;
+    top: 41px;
+    font-size: 29px;
+
+}
+
+.cont a {
+    padding: 9px 9px;
+    padding-bottom: 2px;
+    margin: 0px 7px;
+    padding-left: 9px;
+    border: 2px solid rgb(255 0 160);
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255 0 160);
+}
+
+.cont a:hover {
+    background-color: rgb(100, 4, 65);
+    color: rgb(0, 0, 0);
+}
